@@ -1,0 +1,24 @@
+.animations__list {
+   text-align: center;
+   margin: 40px 0;
+}
+
+.animations__item {
+   margin-bottom: 200px;
+}
+
+.animations__title {
+   font-size: 24px;
+   font-family: "Roboto Mono", monospace;
+   font-weight: normal;
+   margin-bottom: 10px;
+}
+
+.animations__container {
+   width: 90%;
+   max-width: 900px;
+   height: 400px; /* Высота контейнера */
+   background-color: #d3d3d3; /* Серый фон */
+   margin: 0 auto; /* Центрирует контейнер */
+   position: relative;
+}

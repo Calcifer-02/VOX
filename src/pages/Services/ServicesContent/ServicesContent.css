@@ -1,0 +1,58 @@
+.marquee {
+   height: 200px;
+   background-color: #d9d9d9;
+   display: flex;
+   align-items: center;
+   margin-bottom: 50px;
+}
+
+.marquee__text {
+   font-size: 96px;
+   font-weight: bold;
+   white-space: nowrap;
+   padding: 10px;
+   color: #ffffff;
+   font-family: "Gridtile", sans-serif;
+}
+
+.services__main {
+   padding: 20px;
+   font-family: "roboto mono", monospace;
+}
+
+.services {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   max-width: 90%;
+   margin: 0 auto;
+}
+
+.service__item {
+   flex: 1 1 20%;
+   box-sizing: border-box;
+   padding: 10px;
+   background-color: #f9f9f9;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   align-items: center;
+}
+
+.service-link {
+   font-weight: 600;
+   font-size: 18px;
+   text-decoration: none;
+   color: #333;
+   margin-bottom: 10px;
+}
+
+.service__item_text {
+   font-size: 14px;
+   line-height: 1.6;
+   color: #666;
+   word-wrap: break-word; /* Переносит длинные слова */
+   overflow-wrap: break-word;
+   text-align: center;
+}

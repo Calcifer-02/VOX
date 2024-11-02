@@ -1,0 +1,91 @@
+.contacts-container {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: flex-start;
+
+   padding: 60px 0;
+   background-color: #d9d9d9;
+   font-family: "roboto mono", monospace;
+}
+
+.contacts-info,
+.contact-form {
+   width: 40%;
+}
+
+.contacts-info h2 {
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 25px; /* Увеличиваем отступ под заголовком */
+}
+
+.contacts-info p,
+.contacts-info ul {
+   font-size: 14px;
+   line-height: 1.8; /* Увеличиваем межстрочный интервал */
+   margin-bottom: 20px; /* Увеличиваем отступы между элементами */
+}
+
+.contacts-info ul {
+   list-style: none;
+   padding-left: 0;
+}
+
+.contacts-info ul li::before {
+   content: "- ";
+   margin-right: 5px;
+}
+
+.social-icons {
+   display: flex;
+   gap: 20px; /* Увеличиваем расстояние между иконками */
+   margin: 30px 0; /* Увеличиваем отступы над и под иконками */
+}
+
+.social-icons img {
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+}
+
+.contact-form {
+   display: flex;
+   flex-direction: column;
+   gap: 20px; /* Увеличиваем расстояние между полями ввода */
+}
+
+.contact-form label {
+   display: flex;
+   flex-direction: column;
+   font-size: 14px;
+   color: #000000;
+}
+
+.contact-form input,
+.contact-form textarea {
+   width: 100%;
+   padding: 12px; /* Увеличиваем внутренний отступ */
+   border: 1px solid #000;
+   font-size: 14px;
+   box-sizing: border-box;
+   border-radius: 0;
+   outline: none;
+}
+
+.contact-form textarea {
+   height: 240px; /* Увеличиваем фиксированную высоту поля сообщения */
+   resize: none;
+}
+
+.contact-form button {
+   width: 120px; /* Увеличиваем ширину кнопки */
+   padding: 12px;
+   background-color: #000;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   font-size: 14px;
+   align-self: flex-start;
+   margin-top: 20px; /* Увеличиваем отступ сверху */
+   text-transform: uppercase;
+}

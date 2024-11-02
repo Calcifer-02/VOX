@@ -1,0 +1,48 @@
+.works-gallery {
+   margin-top: 2rem;
+   padding-top: 1.25em;
+   padding-bottom: 10em;
+   columns: 3;
+   column-gap: 1.25rem;
+}
+
+.works-item {
+   display: inline-block;
+   width: 100%;
+   break-inside: avoid;
+   margin-bottom: 1.25rem;
+}
+
+.works-gallery img {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+.works-item img {
+   filter: grayscale(100%);
+   transition: filter 0.15s ease;
+}
+
+.works-item img:hover {
+   filter: grayscale(0%);
+}
+
+/* Адаптивность для меньших экранов */
+@media (max-width: 768px) {
+   .works-gallery {
+      columns: 2;
+   }
+}
+
+@media (max-width: 480px) {
+   .works-gallery {
+      columns: 1;
+   }
+}
+.in-progress {
+   text-align: center;
+   font-size: 20px;
+   font-family: "roboto mono", monospace;
+   margin-bottom: 5rem;
+}
