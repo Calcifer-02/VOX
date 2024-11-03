@@ -2,7 +2,7 @@
    "name": "vox",
    "version": "0.1.0",
    "private": true,
-   "homepage": "https://calcifer-02.github.io/VOX/",
+   "homepage": "https://Сalcifer-02.github.io/VOX/",
    "dependencies": {
       "@testing-library/jest-dom": "^5.17.0",
       "@testing-library/react": "^13.4.0",
