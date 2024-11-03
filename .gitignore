@@ -9,7 +9,7 @@
 /coverage
 
 # production
-/build
+# /build // для деплоя github
 
 # misc
 .DS_Store
