@@ -9,7 +9,7 @@ import VR from "./pages/VR/VR";
 import Services from "./pages/Services/Services";
 const App = () => {
    return (
-      <Router>
+      <Router basename="/VOX">
          <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/works" element={<Works />} />
