@@ -16,7 +16,7 @@ function Footer() {
                >
                   Developer: Calcifer_02
                   <img
-                     src="/images/telegram.png"
+                     src="./images/telegram.png"
                      alt="Telegram"
                      className="footer__telegram-icon"
                   />
@@ -30,28 +30,28 @@ function Footer() {
                      target="_blank"
                      rel="noopener noreferrer"
                   >
-                     <img src="/images/instagram.png" alt="Instagram" />
+                     <img src="./images/instagram.png" alt="Instagram" />
                   </a>
                   <a
                      href="https://behance.net"
                      target="_blank"
                      rel="noopener noreferrer"
                   >
-                     <img src="/images/behance.png" alt="Behance" />
+                     <img src="./images/behance.png" alt="Behance" />
                   </a>
                   <a
                      href="https://youtube.com"
                      target="_blank"
                      rel="noopener noreferrer"
                   >
-                     <img src="/images/youtube.png" alt="YouTube" />
+                     <img src="./images/youtube.png" alt="YouTube" />
                   </a>
                   <a
                      href="https://pinterest.com"
                      target="_blank"
                      rel="noopener noreferrer"
                   >
-                     <img src="/images/pinterest.png" alt="Pinterest" />
+                     <img src="./images/pinterest.png" alt="Pinterest" />
                   </a>
                </div>
             </div>

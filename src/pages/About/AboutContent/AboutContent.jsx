@@ -5,7 +5,7 @@ function AboutContent() {
    return (
       <div className="about-container">
          <img
-            src="/images/about.svg"
+            src="./images/about.svg"
             alt="Main Visual"
             className="main-image"
          />
@@ -47,12 +47,12 @@ function AboutContent() {
             </p>
             <div className="team-images">
                <img
-                  src="/images/team_member_1.svg"
+                  src="./images/team_member_1.svg"
                   alt="Team Member 1"
                   className="team-image"
                />
                <img
-                  src="/images/team_member_2.svg"
+                  src="./images/team_member_2.svg"
                   alt="Team Member 2"
                   className="team-image"
                />

@@ -24,8 +24,8 @@ function ContactsContent() {
             </div>
 
             <div className="social-icons">
-               <img src="/images/telegram.png" alt="Telegram" />
-               <img src="/images/behance.png" alt="Behance" />
+               <img src="./images/telegram.png" alt="Telegram" />
+               <img src="./images/behance.png" alt="Behance" />
             </div>
             <p>
                Feel free to contact us through any of the provided methods. We
